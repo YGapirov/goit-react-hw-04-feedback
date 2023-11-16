@@ -36,7 +36,7 @@ export const App = () => {
 
   const countPositiveFeedbackPercentage = () => {
     const total = countTotalFeedback();
-
+    //обчислюємо сереній % фідбеку, або повертаємо нуль
     return Math.round((good / total) * 100) || 0;
   };
 
